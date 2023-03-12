@@ -30,7 +30,6 @@ def play_game():
   print("Welcome to Number Guesser!")
   print("I'm thinking of a number between 1 and 100")
   answer = random.choice(range(1,101))
-  print(answer)
   lives = difficulty()
   user_guess = 0
   while user_guess != answer:
